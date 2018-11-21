@@ -12,6 +12,12 @@ Start an **R** session and run the commands:
 ```r
 devtools::install_github("dieterich-lab/CellPlot", build_vignettes = TRUE)
 ```
+For installation on a conda enviroment on Linux use:
+
+```r
+options(unzip="internal") 
+devtools::install_github("dieterich-lab/CellPlot", build_vignettes = TRUE)
+```
 
 Read about requirements in the vignette.
 
